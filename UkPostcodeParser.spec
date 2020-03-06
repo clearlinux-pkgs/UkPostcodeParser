@@ -4,7 +4,7 @@
 #
 Name     : UkPostcodeParser
 Version  : 1.1.2
-Release  : 7
+Release  : 8
 URL      : https://files.pythonhosted.org/packages/74/90/20124b3329b367fed7972afd1eebc942f0eba28fae6b4a6521ba1c78e4d0/UkPostcodeParser-1.1.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/74/90/20124b3329b367fed7972afd1eebc942f0eba28fae6b4a6521ba1c78e4d0/UkPostcodeParser-1.1.2.tar.gz
 Summary  : UK Postcode parser
@@ -42,7 +42,7 @@ python components for the UkPostcodeParser package.
 Summary: python3 components for the UkPostcodeParser package.
 Group: Default
 Requires: python3-core
-Provides: pypi(UkPostcodeParser)
+Provides: pypi(ukpostcodeparser)
 
 %description python3
 python3 components for the UkPostcodeParser package.
@@ -57,8 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582906938
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583523955
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
